@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Andrew Jackson</string>
+		<key>Number</key>
+		<integer>7</integer>
+		<key>Start Date</key>
+		<string>March 4, 1829</string>
+		<key>End Date</key>
+		<string>March 3, 1837</string>
+		<key>Nickname</key>
+		<string>&quot;Old Hickory&quot;</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>John Adams</string>
+		<key>Number</key>
+		<integer>2</integer>
+		<key>Start Date</key>
+		<string>March 4, 1797</string>
+		<key>End Date</key>
+		<string>March 3, 1801</string>
+		<key>Nickname</key>
+		<string>&quot;Atlas of Independence&quot;</string>
+		<key>Political Party</key>
+		<string>Federalist</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>James Madison</string>
+		<key>Number</key>
+		<integer>4</integer>
+		<key>Start Date</key>
+		<string>March 4, 1809</string>
+		<key>End Date</key>
+		<string>March 3, 1817</string>
+		<key>Nickname</key>
+		<string>&quot;Father of the Constitution&quot;</string>
+		<key>Political Party</key>
+		<string>Democratic-Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>James Monroe</string>
+		<key>Number</key>
+		<integer>5</integer>
+		<key>Start Date</key>
+		<string>March 4, 1817</string>
+		<key>End Date</key>
+		<string>March 3, 1825</string>
+		<key>Nickname</key>
+		<string>&quot;The Last Cocked Hat&quot;; &quot;Era-of-Good-Feeling President&quot;</string>
+		<key>Political Party</key>
+		<string>Democratic-Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>George Washington</string>
+		<key>Number</key>
+		<integer>1</integer>
+		<key>Start Date</key>
+		<string>April 30, 1789</string>
+		<key>End Date</key>
+		<string>March 3, 1797</string>
+		<key>Nickname</key>
+		<string>&quot;Father of His Country&quot;</string>
+		<key>Political Party</key>
+		<string>None</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>John Quincy Adams</string>
+		<key>Number</key>
+		<integer>6</integer>
+		<key>Start Date</key>
+		<string>March 4, 1825</string>
+		<key>End Date</key>
+		<string>March 3, 1829</string>
+		<key>Nickname</key>
+		<string>&quot;Old Man Eloquent&quot;</string>
+		<key>Political Party</key>
+		<string>Democratic-Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Martin Van Buren</string>
+		<key>Number</key>
+		<integer>8</integer>
+		<key>Start Date</key>
+		<string>March 4, 1837</string>
+		<key>End Date</key>
+		<string>March 3, 1841</string>
+		<key>Nickname</key>
+		<string>&quot;The Little Magician&quot;;&quot;The Red Fox of Kinderhook&quot;</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Franklin Pierce</string>
+		<key>Number</key>
+		<integer>14</integer>
+		<key>Start Date</key>
+		<string>March 4, 1853</string>
+		<key>End Date</key>
+		<string>March 3, 1857</string>
+		<key>Nickname</key>
+		<string>&quot;Young Hickory of the Granite Hills&quot;</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>William Henry Harrison</string>
+		<key>Number</key>
+		<integer>9</integer>
+		<key>Start Date</key>
+		<string>March 4, 1841</string>
+		<key>End Date</key>
+		<string>April 4, 1841</string>
+		<key>Nickname</key>
+		<string>&quot;Old Tippecanoe&quot;</string>
+		<key>Political Party</key>
+		<string>Whig</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>James Knox Polk</string>
+		<key>Number</key>
+		<integer>11</integer>
+		<key>Start Date</key>
+		<string>March 4, 1845</string>
+		<key>End Date</key>
+		<string>March 3, 1849</string>
+		<key>Nickname</key>
+		<string>&quot;Young Hickory&quot;</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Zachary Taylor</string>
+		<key>Number</key>
+		<integer>12</integer>
+		<key>Start Date</key>
+		<string>March 5, 1849</string>
+		<key>End Date</key>
+		<string>July 9, 1850</string>
+		<key>Nickname</key>
+		<string>&quot;Old Rough and Ready&quot;</string>
+		<key>Political Party</key>
+		<string>Whig</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>John Tyler</string>
+		<key>Number</key>
+		<integer>10</integer>
+		<key>Start Date</key>
+		<string>April 6, 1841</string>
+		<key>End Date</key>
+		<string>March 3, 1845</string>
+		<key>Nickname</key>
+		<string>&quot;Accidental President&quot;; &quot;His Accidency&quot;</string>
+		<key>Political Party</key>
+		<string>Whig</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Millard Fillmore</string>
+		<key>Number</key>
+		<integer>13</integer>
+		<key>Start Date</key>
+		<string>July 9, 1850</string>
+		<key>End Date</key>
+		<string>March 3, 1853</string>
+		<key>Nickname</key>
+		<string>&quot;The American Louis Philippe&quot;</string>
+		<key>Political Party</key>
+		<string>Whig</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>James Buchanan</string>
+		<key>Number</key>
+		<integer>15</integer>
+		<key>Start Date</key>
+		<string>March 4, 1857</string>
+		<key>End Date</key>
+		<string>March 3, 1861</string>
+		<key>Nickname</key>
+		<string>&quot;Old Buck&quot;</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Thomas Jefferson</string>
+		<key>Number</key>
+		<integer>3</integer>
+		<key>Start Date</key>
+		<string>March 4, 1801</string>
+		<key>End Date</key>
+		<string>March 3, 1809</string>
+		<key>Nickname</key>
+		<string>&quot;Man of the People&quot;; &quot;Sage of Monticello&quot;</string>
+		<key>Political Party</key>
+		<string>Democratic-Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Abraham Lincoln</string>
+		<key>Number</key>
+		<integer>16</integer>
+		<key>Start Date</key>
+		<string>March 4, 1861</string>
+		<key>End Date</key>
+		<string>April 15, 1865</string>
+		<key>Nickname</key>
+		<string>&quot;Honest Abe&quot;; &quot;Illinois Rail Splitter&quot;</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Andrew Johnson</string>
+		<key>Number</key>
+		<integer>17</integer>
+		<key>Start Date</key>
+		<string>April 15, 1865</string>
+		<key>End Date</key>
+		<string>March 3, 1869</string>
+		<key>Nickname</key>
+		<string>None</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ulysses S. Grant</string>
+		<key>Number</key>
+		<integer>18</integer>
+		<key>Start Date</key>
+		<string>March 4, 1869</string>
+		<key>End Date</key>
+		<string>March 3, 1877</string>
+		<key>Nickname</key>
+		<string>&quot;Hero of Appomattox&quot;</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Rutherford Birchard Hayes</string>
+		<key>Number</key>
+		<integer>19</integer>
+		<key>Start Date</key>
+		<string>March 4, 1877</string>
+		<key>End Date</key>
+		<string>March 3, 1881</string>
+		<key>Nickname</key>
+		<string>&quot;Dark-Horse President&quot;</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>James Abram Garfield</string>
+		<key>Number</key>
+		<integer>20</integer>
+		<key>Start Date</key>
+		<string>March 4, 1881</string>
+		<key>End Date</key>
+		<string>September 19, 1881</string>
+		<key>Nickname</key>
+		<string>None</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Chester Alan Arthur</string>
+		<key>Number</key>
+		<integer>21</integer>
+		<key>Start Date</key>
+		<string>September 19, 1881</string>
+		<key>End Date</key>
+		<string>March 3, 1885</string>
+		<key>Nickname</key>
+		<string>&quot;The Gentleman Boss&quot;; &quot;Elegant Arthur&quot;</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Grover Cleveland</string>
+		<key>Number</key>
+		<integer>22</integer>
+		<key>Start Date</key>
+		<string>March 4, 1885</string>
+		<key>End Date</key>
+		<string>March 3, 1889</string>
+		<key>Nickname</key>
+		<string>&quot;Veto Mayor&quot;; &quot;Veto President&quot;</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Benjamin Harrison</string>
+		<key>Number</key>
+		<integer>23</integer>
+		<key>Start Date</key>
+		<string>March 4, 1889</string>
+		<key>End Date</key>
+		<string>March 3, 1893</string>
+		<key>Nickname</key>
+		<string>&quot;Kid Gloves Harrison&quot;; &quot;Little Ben&quot;</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Grover Cleveland</string>
+		<key>Number</key>
+		<integer>24</integer>
+		<key>Start Date</key>
+		<string>March 4, 1893</string>
+		<key>End Date</key>
+		<string>March 3, 1897</string>
+		<key>Nickname</key>
+		<string>&quot;Veto Mayor&quot;; &quot;Veto President&quot;</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>William McKinley</string>
+		<key>Number</key>
+		<integer>25</integer>
+		<key>Start Date</key>
+		<string>March 4, 1897</string>
+		<key>End Date</key>
+		<string>September 14, 1901</string>
+		<key>Nickname</key>
+		<string>&quot;Idol of Ohio&quot;</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Theodore Roosevelt</string>
+		<key>Number</key>
+		<integer>26</integer>
+		<key>Start Date</key>
+		<string>September 14, 1901</string>
+		<key>End Date</key>
+		<string>March 3, 1909</string>
+		<key>Nickname</key>
+		<string>&quot;TR&quot;; &quot;Trust-Buster&quot;; &quot;Teddy&quot;</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>William Howard Taft</string>
+		<key>Number</key>
+		<integer>27</integer>
+		<key>Start Date</key>
+		<string>March 4, 1909</string>
+		<key>End Date</key>
+		<string>March 3, 1913</string>
+		<key>Nickname</key>
+		<string>None</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Woodrow Wilson</string>
+		<key>Number</key>
+		<integer>28</integer>
+		<key>Start Date</key>
+		<string>March 4, 1913</string>
+		<key>End Date</key>
+		<string>March 3, 1921</string>
+		<key>Nickname</key>
+		<string>&quot;Schoolmaster in Politics&quot;</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Warren Gamaliel Harding</string>
+		<key>Number</key>
+		<integer>29</integer>
+		<key>Start Date</key>
+		<string>March 4, 1921</string>
+		<key>End Date</key>
+		<string>August 2, 1923</string>
+		<key>Nickname</key>
+		<string>None</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Calvin Coolidge</string>
+		<key>Number</key>
+		<integer>30</integer>
+		<key>Start Date</key>
+		<string>August 3, 1923</string>
+		<key>End Date</key>
+		<string>March 3, 1929</string>
+		<key>Nickname</key>
+		<string>&quot;Silent Cal&quot;</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Herbert Clark Hoover</string>
+		<key>Number</key>
+		<integer>31</integer>
+		<key>Start Date</key>
+		<string>March 4, 1929</string>
+		<key>End Date</key>
+		<string>March 3, 1933</string>
+		<key>Nickname</key>
+		<string>None</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Franklin Delano Roosevelt</string>
+		<key>Number</key>
+		<integer>32</integer>
+		<key>Start Date</key>
+		<string>March 4, 1933</string>
+		<key>End Date</key>
+		<string>April 12, 1945</string>
+		<key>Nickname</key>
+		<string>&quot;FDR&quot;</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Harry S. Truman</string>
+		<key>Number</key>
+		<integer>33</integer>
+		<key>Start Date</key>
+		<string>April 12, 1945</string>
+		<key>End Date</key>
+		<string>January 20, 1953</string>
+		<key>Nickname</key>
+		<string>&quot;Give 'Em Hell Harry&quot;</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dwight David Eisenhower</string>
+		<key>Number</key>
+		<integer>34</integer>
+		<key>Start Date</key>
+		<string>January 20, 1953</string>
+		<key>End Date</key>
+		<string>January 20, 1961</string>
+		<key>Nickname</key>
+		<string>&quot;Ike&quot;</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>John Fitzgerald Kennedy</string>
+		<key>Number</key>
+		<integer>35</integer>
+		<key>Start Date</key>
+		<string>January 20, 1961</string>
+		<key>End Date</key>
+		<string>November 22, 1963</string>
+		<key>Nickname</key>
+		<string>&quot;JFK&quot;; &quot;Jack&quot;</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Lyndon Baines Johnson</string>
+		<key>Number</key>
+		<integer>36</integer>
+		<key>Start Date</key>
+		<string>November 22, 1963</string>
+		<key>End Date</key>
+		<string>January 20, 1969</string>
+		<key>Nickname</key>
+		<string>&quot;LBJ&quot;</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Richard Milhous Nixon</string>
+		<key>Number</key>
+		<integer>37</integer>
+		<key>Start Date</key>
+		<string>January 20, 1969</string>
+		<key>End Date</key>
+		<string>August 9, 1974</string>
+		<key>Nickname</key>
+		<string>None</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Gerald Rudolph Ford</string>
+		<key>Number</key>
+		<integer>38</integer>
+		<key>Start Date</key>
+		<string>August 9, 1974</string>
+		<key>End Date</key>
+		<string>January 20, 1977</string>
+		<key>Nickname</key>
+		<string>&quot;Jerry&quot;</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>James Earl Carter, Jr.</string>
+		<key>Number</key>
+		<integer>39</integer>
+		<key>Start Date</key>
+		<string>January 20, 1977</string>
+		<key>End Date</key>
+		<string>January 20, 1981</string>
+		<key>Nickname</key>
+		<string>&quot;Jimmy&quot;</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ronald Wilson Reagan</string>
+		<key>Number</key>
+		<integer>40</integer>
+		<key>Start Date</key>
+		<string>January 20, 1981</string>
+		<key>End Date</key>
+		<string>January 20, 1989</string>
+		<key>Nickname</key>
+		<string>&quot;The Gipper&quot;; &quot;The Great Communicator&quot;; &quot;Dutch&quot;</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>George Herbert Walker Bush</string>
+		<key>Number</key>
+		<integer>41</integer>
+		<key>Start Date</key>
+		<string>January 20, 1989</string>
+		<key>End Date</key>
+		<string>January 20, 1993</string>
+		<key>Nickname</key>
+		<string>&quot;Poppy&quot;</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>William Jefferson Clinton</string>
+		<key>Number</key>
+		<integer>42</integer>
+		<key>Start Date</key>
+		<string>January 20, 1993</string>
+		<key>End Date</key>
+		<string>January 20, 2001</string>
+		<key>Nickname</key>
+		<string>&quot;Bill&quot;</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>George Walker Bush</string>
+		<key>Number</key>
+		<integer>43</integer>
+		<key>Start Date</key>
+		<string>January 20, 2001</string>
+		<key>End Date</key>
+		<string>January 20, 2009</string>
+		<key>Nickname</key>
+		<string>&quot;W&quot;</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Barack Hussein Obama</string>
+		<key>Number</key>
+		<integer>44</integer>
+		<key>Start Date</key>
+		<string>January 20, 2009</string>
+		<key>End Date</key>
+		<string>January 20, 2017</string>
+		<key>Nickname</key>
+		<string>None</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Donald John Trump</string>
+		<key>Number</key>
+		<integer>45</integer>
+		<key>Start Date</key>
+		<string>January 20, 2017</string>
+		<key>End Date</key>
+		<string>January 20, 2021</string>
+		<key>Nickname</key>
+		<string>None</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+	</dict>
+</array>
+</plist>
