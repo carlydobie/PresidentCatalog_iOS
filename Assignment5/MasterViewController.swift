@@ -15,14 +15,18 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
     var filteredObjects = [President]()
 
     let portraitStore = PortraitStore()
-    
     let searchController = UISearchController(searchResultsController: nil)
 
+    // Called after the controller's view is loaded into memory
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        // Set left button to edit button
         navigationItem.leftBarButtonItem = editButtonItem
 
+        // Changes in one view controller dirive changes in the content of another
+        // When president is selected from table, detail view of president is displayed
         if let split = splitViewController {
             let controllers = split.viewControllers
             detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
@@ -30,8 +34,10 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
         
         // Initialize and display search bar
         setUpSearchController()
+
         // Import plist data into table
 //        readPropertyList()
+        
         // Download JSON data
         downloadJSONData()
     }
@@ -52,6 +58,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
         searchController.searchBar.delegate = self
     }
     
+    // Import plist data
 //    func readPropertyList() {
 //        // Set path of the plist file to be imported
 //        guard let path = Bundle.main.path(forResource: "presidents", ofType: "plist"), let xml = FileManager.default.contents(atPath: path) else {
@@ -109,7 +116,6 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
     }
     
     // Search code
-    
     func searchBarIsEmpty() -> Bool {
         return searchController.searchBar.text?.isEmpty ?? true
     }
@@ -231,16 +237,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
         filterContentForSearchText(searchController.searchBar.text!, scope: scope)
     }
     
-//    func searchBar(_ message: String) {
-//        let alertController = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
-//        let cancelAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-//        alertController.addAction(cancelAction)
-//
-//        DispatchQueue.main.async {
-//            self.present(alertController, animated: true, completion: nil)
-//        }
-//    }
-    
+    // Used to generate error message
     func showAlert(_ message: String) {
         let alertController = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
         let cancelAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
