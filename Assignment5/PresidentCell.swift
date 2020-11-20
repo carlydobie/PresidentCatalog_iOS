@@ -1,6 +1,6 @@
 //
 //  PresidentCell.swift
-//  Assignment4
+//  Assignment5
 //
 //  Created by Carly Dobie on 11/4/20.
 //  Copyright © 2020 Carly Dobie. All rights reserved.
