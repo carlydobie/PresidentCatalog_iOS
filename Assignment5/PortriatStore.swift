@@ -14,13 +14,17 @@ class PortraitStore {
     
     func downloadImage(with urlString: String, completion: @escaping (_ image: UIImage?) -> Void) {
         
+        // No image exists, set to default image
         if urlString == "None" {
             completion(UIImage(named: "default.png"))
+            // Cache image URL
         } else if let cachedImage = imageCache.object(forKey: urlString as NSString)
         {
             completion(cachedImage)
+            // Cache UIImage
         } else if let cachedImage = readImage(named: fileNameFrom(urlString)) {
             completion(cachedImage)
+            // Image is not cache, download it
         } else {
             
             weak var weakSelf = self
@@ -68,6 +72,7 @@ class PortraitStore {
         }
     }
 
+    // Create filename from URL
     private func fileNameFrom(_ urlString: String) -> String {
         let fileArray = urlString.components(separatedBy: "/")
         return fileArray.last!
@@ -86,6 +91,7 @@ class PortraitStore {
         return nil
     }
 
+    // Save the image
     func saveImage(_ image: UIImage, named fileName: String) {
         let fileManager = FileManager.default
     
@@ -96,6 +102,7 @@ class PortraitStore {
         fileManager.createFile(atPath: filePath, contents: imageData, attributes: nil)
     }
 
+    // Return the UIImage
     func readImage(named fileName: String) -> UIImage? {
         guard let filePath = append(toPath: documentDirectory(), withPathComponent: fileName) else {
             return nil
@@ -103,6 +110,7 @@ class PortraitStore {
         return UIImage(contentsOfFile: filePath)
     }
 
+    // When memory is low, let system clear the image cache
     func clearCache() {
         imageCache.removeAllObjects()
     }
