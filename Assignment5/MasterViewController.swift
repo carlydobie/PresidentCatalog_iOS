@@ -14,6 +14,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
     var objects = [President]()
     var filteredObjects = [President]()
 
+    // Store of president portraits from JSON data
     let portraitStore = PortraitStore()
     let searchController = UISearchController(searchResultsController: nil)
 
@@ -34,9 +35,6 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
         
         // Initialize and display search bar
         setUpSearchController()
-
-        // Import plist data into table
-//        readPropertyList()
         
         // Download JSON data
         downloadJSONData()
@@ -53,12 +51,17 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
         searchController.searchBar.placeholder = "Search Presidents"
         navigationItem.searchController = searchController
         definesPresentationContext = true
+        // Scope buttons
         searchController.searchBar.scopeButtonTitles = ["All", "Democrat", "Republican", "Whig"]
         searchController.delegate = self
         searchController.searchBar.delegate = self
     }
     
+    //MARK: -Data
+    
+    // Doanload JSON data and decode it
     func downloadJSONData() {
+        // URL of JSON data
         guard let url = URL(string: "https://www.prismnet.com/~mcmahon/CS321/presidents.json") else {
             showAlert("Invalid URL for JSON data")
             return
@@ -69,14 +72,18 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
         let task = URLSession.shared.dataTask(with: url) {
             (data, response, error) in
             
+            // If there's no response from the server
             let httpResponse = response as? HTTPURLResponse
             if httpResponse!.statusCode != 200 {
                 weakSelf!.showAlert("HTTP Error: status code \(httpResponse!.statusCode)")
+                // Or if no data is received
             } else if (data == nil && error != nil) {
                 weakSelf!.showAlert("No data downloaded")
             } else {
                 do {
-                    weakSelf!.objects = try JSONDecoder().decode([President].self, from: data!)
+                    weakSelf!.objects = try
+                        // Decode JSON data with President key
+                        JSONDecoder().decode([President].self, from: data!)
                     // Sort by order of presidency
                     weakSelf!.objects.sort {
                         return $0.number < $1.number
@@ -87,6 +94,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
                         weakSelf!.tableView!.reloadData()
                     }
                     
+                    // If JSON data is unable to be decoded
                 } catch {
                     weakSelf!.showAlert("Unable to decode JSON data")
                 }
@@ -95,7 +103,8 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
         task.resume()
     }
     
-    // Search code
+    // MARK: -Search code
+    
     func searchBarIsEmpty() -> Bool {
         return searchController.searchBar.text?.isEmpty ?? true
     }
@@ -129,6 +138,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
 
     // MARK: - Segues
 
+    // Open detail view of chosen president
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             if let indexPath = tableView.indexPathForSelectedRow {
