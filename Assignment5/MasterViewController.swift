@@ -58,26 +58,6 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
         searchController.searchBar.delegate = self
     }
     
-    // Import plist data
-//    func readPropertyList() {
-//        // Set path of the plist file to be imported
-//        guard let path = Bundle.main.path(forResource: "presidents", ofType: "plist"), let xml = FileManager.default.contents(atPath: path) else {
-//            fatalError("Unable to access property list")
-//        }
-//
-//        do {
-//            // Decode plist using President class
-//            objects = try PropertyListDecoder().decode([President].self, from: xml)
-//            // Sort presidents by their number
-//            objects.sort {
-//                return $0.number < $1.number
-//            }
-//        } catch {
-//            fatalError("Unable to decode property list")
-//        }
-//
-//    }
-    
     func downloadJSONData() {
         guard let url = URL(string: "https://www.prismnet.com/~mcmahon/CS321/presidents.json") else {
             showAlert("Invalid URL for JSON data")
