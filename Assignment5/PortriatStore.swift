@@ -10,8 +10,10 @@ import Foundation
 import UIKit
 class PortraitStore {
     
+    // Temporary store of key and image
     let imageCache = NSCache<NSString, UIImage>()
     
+    // Download image from JSON data
     func downloadImage(with urlString: String, completion: @escaping (_ image: UIImage?) -> Void) {
         
         if urlString == "None" {
@@ -22,24 +24,22 @@ class PortraitStore {
         } else if let cachedImage = readImage(named: fileNameFrom(urlString)) {
             completion(cachedImage)
         } else {
-            
             weak var weakSelf = self
             if let url = URL(string: urlString) {
-                
                 let task = URLSession.shared.dataTask(with: url) {
                     (data, response, error) in
                     
+                    // Response from request
                     let httpResponse = response as? HTTPURLResponse
                     
                     if httpResponse!.statusCode != 200 {
-                        
                         DispatchQueue.main.async {
                             print("HTTP Error: status code \(httpResponse!.statusCode)")
                             completion(UIImage(named: "default.png"))
                         }
                     } else if (data == nil && error != nil) {
                         DispatchQueue.main.async {
-                            print("No data downloaded fro \(urlString)")
+                            print("No data downloaded from \(urlString)")
                             completion(UIImage(named: "default.png"))
                         }
                     } else {

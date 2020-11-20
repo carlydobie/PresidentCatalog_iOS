@@ -175,7 +175,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
         return 1
     }
 
-    // Number of rows = number of all or number of search results
+    // Number of rows = all or search results
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if isFiltering() {
             return filteredObjects.count
@@ -225,6 +225,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
             
             tableView.deleteRows(at: [indexPath], with: .fade)
             
+            // NOT IMPLEMENTED
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
         }
@@ -233,7 +234,9 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
     // Update results according to search text and the selected scope
     func updateSearchResults(for searchController: UISearchController) {
         let searchBar = searchController.searchBar
+        // Set scope to the selected scope button
         let scope = searchBar.scopeButtonTitles![searchBar.selectedScopeButtonIndex]
+        // Find presidents that match search input text and scope
         filterContentForSearchText(searchController.searchBar.text!, scope: scope)
     }
     
