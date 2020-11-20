@@ -30,8 +30,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
         
         // Initialize and display search bar
         setUpSearchController()
-        // Import plist data into table
-//        readPropertyList()
+
         // Download JSON data
         downloadJSONData()
     }
@@ -51,25 +50,6 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
         searchController.delegate = self
         searchController.searchBar.delegate = self
     }
-    
-//    func readPropertyList() {
-//        // Set path of the plist file to be imported
-//        guard let path = Bundle.main.path(forResource: "presidents", ofType: "plist"), let xml = FileManager.default.contents(atPath: path) else {
-//            fatalError("Unable to access property list")
-//        }
-//
-//        do {
-//            // Decode plist using President class
-//            objects = try PropertyListDecoder().decode([President].self, from: xml)
-//            // Sort presidents by their number
-//            objects.sort {
-//                return $0.number < $1.number
-//            }
-//        } catch {
-//            fatalError("Unable to decode property list")
-//        }
-//
-//    }
     
     func downloadJSONData() {
         guard let url = URL(string: "https://www.prismnet.com/~mcmahon/CS321/presidents.json") else {
@@ -230,16 +210,6 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, U
         let scope = searchBar.scopeButtonTitles![searchBar.selectedScopeButtonIndex]
         filterContentForSearchText(searchController.searchBar.text!, scope: scope)
     }
-    
-//    func searchBar(_ message: String) {
-//        let alertController = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
-//        let cancelAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-//        alertController.addAction(cancelAction)
-//
-//        DispatchQueue.main.async {
-//            self.present(alertController, animated: true, completion: nil)
-//        }
-//    }
     
     func showAlert(_ message: String) {
         let alertController = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
